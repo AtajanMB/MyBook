@@ -16,6 +16,5 @@ class MainActivity : AppCompatActivity() {
         pdfView.fromAsset("halallyk_kyssalary.pdf")
             .scrollHandle(DefaultScrollHandle(this))
             .load()
-
     }
 }
